@@ -15,13 +15,10 @@ const Bonus = new mongoose.Schema({
 });
 
 //URLSlugs('<user>');
-// Link.plugin(URLSlugs('title'));
 mongoose.model('Boom', Boom);
 mongoose.model('Bonus', Bonus);
 // mongoose.model('Link', Link);
 mongoose.Promise = global.Promise;
 
-//mongoose.connect('mongodb://localhost/funds');
 
-mongoose.connect('mongodb://suhan1996:112496@ds241895.mlab.com:41895/time');
-//mongoose.connect('mongodb://suhan1996:112496@ds115124.mlab.com:15124/heroku_dh8g5j5z');
+mongoose.connect('');

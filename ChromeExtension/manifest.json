@@ -1,10 +1,10 @@
 {
   "manifest_version": 2,
-  "name": "Linkshare",
-  "description": "A simple link sharing Chrome extension",
+  "name": "Is Han Online?",
+  "description": "Is Han Online?",
   "version": "1.0",
   "browser_action": {
-    "default_icon": "linkshare.png",
+    "default_icon": "settings.png",
     "default_popup": "linkshare.html",
     "default_title": "Is Han Online?"
   },

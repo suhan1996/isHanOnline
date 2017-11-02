@@ -9,7 +9,7 @@ const Boom = mongoose.model('Boom');
 const Bonus = mongoose.model('Bonus');
 
 var MongoClient = require('mongodb').MongoClient, format = require('util').format;
-var url = "mongodb://suhan1996:112496@ds241895.mlab.com:41895/time";
+var url = "mongodb://<'Your Mongodb'>";
 
 
 

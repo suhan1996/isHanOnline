@@ -9857,8 +9857,7 @@ $(function() {
         }
         console.log("wait");
         $.ajax({
-            //LQhi2n6DVD-gMbFM_4u1-ipfhbZZEqAx
-            url: "https://api.mongolab.com/api/1/databases/time/collections/time?apiKey=KD1Ze8lriyElaVZNrfmIMwXwicLRCcUr",
+            url: "<Your mongodbURL>",
             type: "POST",
             data: JSON.stringify(doc),
             //data: object,
